@@ -4,14 +4,27 @@ html{
 body {
     background-color: #fafafa
   }
-#title{
+.title{
+    color: red;
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
 }
-#content{
+.content{
     display: flex;
-    justify-content: right;
+    justify-content: space-around;
 }
+.benefitsandfeatures{
+    display: flex;
+    justify-content: center;
+    margin: 0 300px;
+    flex-wrap: wrap;
+}
+
+.features,
+.benefits{
+    width: 300px
+}
+
 h1{
     font-size: 7.2rem;
 }
@@ -36,8 +49,9 @@ h3{
     
 }
 #mockl-up-2{
-    margin: auto;
-    width: 50%;
-    padding: 10px;
+    /* margin: auto; */
+    width: 500px;
+    height: 500px;
+   
 }
 
