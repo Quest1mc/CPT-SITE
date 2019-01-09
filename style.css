@@ -11,11 +11,11 @@ body {
 }
 .content{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 .benefitsandfeatures{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     margin: 0 300px;
     flex-wrap: wrap;
 }
@@ -50,8 +50,8 @@ h3{
 }
 #mockl-up-2{
     /* margin: auto; */
-    width: 700px;
-    height: 700px;
+    width: 550px;
+    height: 550px;
    
 }
 
